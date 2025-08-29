@@ -41,12 +41,12 @@ const CONFIG = {
           link: 'https://github.com/AezanPathan/BlazeTorrent',
         },
         {
-          title: 'Project Name',
+          title: 'codecrafters-bittorrent-csharp',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This is a code for C# solutions to the "Build Your Own BitTorrent" Challenge.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/AezanPathan/codecrafters-bittorrent-csharp',
         },
       ],
     },
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'c#',
@@ -112,14 +112,26 @@ const CONFIG = {
       companyLink: 'https://nopadvance.com',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+certifications: [
+  {
+    name: "Postman API Fundamentals Student Expert",
+    body: "Issued by Postman",
+    year: "2025",
+    link: "https://badgr.com/public/assertions/4WUQlL7pSgKx7_cpYXcU3A?identity__email=aezanp%40gmail.com",
+  },
+  {
+    name: "Learn To make a 3d platformer game with Unity",
+    body: "Issued by Udemy",
+    year: "2023",
+    link: "https://www.udemy.com/certificate/UC-6df70078-5c13-40e8-92ff-b416a122e63f/",
+  },
+  {
+    name: "Foundational C# with Microsoft",
+    body: "Issued by freeCodeCamp & Microsoft",
+    year: "2023",
+    link: "https://www.freecodecamp.org/certification/fcc006ab249-86a2-4a6b-8f5d-e0a9dc5daaa7/foundational-c-sharp-with-microsoft",
+  },
+],
   educations: [
     {
       institution: 'IGNOU',
@@ -134,26 +146,27 @@ const CONFIG = {
       to: '2024',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+publications: [
+  {
+    title: "Building BlazeTorrent: A BitTorrent Client with Blazor & C#",
+    conferenceName: "",
+    journalName: "Personal Blog",
+    authors: "Aezan Pathan",
+    link: "https://github.com/AezanPathan/BlazeTorrent",
+    description:
+      "An in-depth write-up on creating BlazeTorrent, a BitTorrent client using Blazor and C#. Covers implementation details, challenges faced, and performance improvements.",
+  },
+  {
+    title: "CodeCrafters BitTorrent Challenge in C#",
+    conferenceName: "",
+    journalName: "GitHub Repository",
+    authors: "Aezan Pathan",
+    link: "https://github.com/AezanPathan/codecrafters-bittorrent-csharp",
+    description:
+      "A technical walkthrough of solving the CodeCrafters 'Build Your Own BitTorrent' challenge in C#, highlighting problem-solving strategies and insights into protocol design.",
+  },
+],
+
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -233,10 +246,10 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/aezanpathan"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >❤️</a>`,
 
   enablePWA: true,
 };
